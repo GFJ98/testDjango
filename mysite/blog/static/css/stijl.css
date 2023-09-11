@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: brown;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: orange;
+    color: black;
+}
+
+#koptekst {
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 5%;
+}
+
+.artikelen-div {
+    background-color: pink;
+}
+
+article {
+    border: 3px solid white;
+    padding: 3px;
+}
+
+@media only screen and (min-width: 769px) {
+    .artikelen-div {
+        width: 40%;
+        margin-top: 7vh;
+        margin-bottom: 7vh;
+        margin-left: 50%;
+    }
+
+    article {
+        margin-bottom: 5vh;
+    }
+}
+
+h2 {
+    margin: 2px 0px;
+}
+
+.post-titel  {
+    color: orange;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+footer {
+    background-color: orange;
+    height: 15vh;
+    width: 100%;
+} 
