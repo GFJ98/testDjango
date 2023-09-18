@@ -11,15 +11,16 @@ body {
 header {
     background-color: orange;
     color: black;
-}
-
-#koptekst {
     padding-top: 7vh;
     padding-bottom: 7vh;
     padding-left: 5%;
 }
 
-.artikelen-div {
+a {
+    color: black;
+}
+
+.artikelen-section {
     background-color: pink;
 }
 
@@ -29,7 +30,7 @@ article {
 }
 
 @media only screen and (min-width: 769px) {
-    .artikelen-div {
+    .artikelen-section {
         width: 40%;
         margin-top: 7vh;
         margin-bottom: 7vh;
